@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.033 s <<< FAILURE! - in TestSuite
+comprobarListadoComicsActivos(semillero.pruebasUnitarias.OperacionesComicsTest)  Time elapsed: 0.025 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<ACTIVO> but was:<ACTIVO>
+	at semillero.pruebasUnitarias.OperacionesComicsTest.comprobarListadoComicsActivos(OperacionesComicsTest.java:77)
+
+comprobarListadoComicsInactivos(semillero.pruebasUnitarias.OperacionesComicsTest)  Time elapsed: 0.033 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<INACTIVO> but was:<INACTIVO>
+	at semillero.pruebasUnitarias.OperacionesComicsTest.comprobarListadoComicsInactivos(OperacionesComicsTest.java:127)
+

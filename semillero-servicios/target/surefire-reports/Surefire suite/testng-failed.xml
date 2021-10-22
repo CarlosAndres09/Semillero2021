@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="semillero.pruebasUnitarias.OperacionesAritmeticasTest">
+        <methods>
+          <include name="finalizaPruebasUnitarias"/>
+          <include name="inicializar"/>
+        </methods>
+      </class> <!-- semillero.pruebasUnitarias.OperacionesAritmeticasTest -->
+      <class name="semillero.pruebasUnitarias.OperacionesComicsTest">
+        <methods>
+          <include name="comprobarListadoComicsActivos"/>
+          <include name="comprobarListadoComicsInactivos"/>
+          <include name="inicializar"/>
+        </methods>
+      </class> <!-- semillero.pruebasUnitarias.OperacionesComicsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
